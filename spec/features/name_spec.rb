@@ -1,5 +1,5 @@
 feature "Entering name" do
-  scenario "Player enters name and sees it" do
+  scenario "Player enters name and sees it in lights" do
     visit "/"
     fill_in :player_name, with: "Marwa"
     click_button "Submit"
