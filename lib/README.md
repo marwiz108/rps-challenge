@@ -20,4 +20,8 @@ Functionality:
 - the game will choose a random option
 - a winner will be declared
 
-This challenge will be carried out using TDD
+This challenge will be carried out using TDD.
+
+To display the player name in lights, rather than using a light effect I decided to manipulate the text-shadow effects to create a fuzzy light effect.
+
+In order to be able to continue on to play the game after getting the displayed player's name, I redirected the post '/name' page to a get '/continue' page, and then added a button for the player to click to proceed to the next page get '/play' to play the game.
